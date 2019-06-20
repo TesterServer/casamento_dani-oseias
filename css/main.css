@@ -1,7 +1,6 @@
 @font-face{font-family:'BebasNeueRegular';src:url('../fonts/CGothic.ttf') format('truetype');}
 @font-face{font-family:'CobertRegular'; src:url('../fonts/Corbert-Regular.otf') format('truetype');}
 @font-face{font-family:'Geomanist'; src:url('../fonts/geomanist-regular-webfont.ttf') format('truetype');}
-@font-face{font-family:'VladmirScript';src:url('../fonts/VladmirScript.ttf') format('truetype');}
 
 html,body{margin:0;padding:0;}
 a:link    {text-decoration:none; color:white;}
@@ -111,6 +110,65 @@ h3:after {
 		min-height:350px;
 		overflow:hidden;
 	}
+	
+	/* Button Coding*/
+	
+	.btn_div{
+		  width: 41%; padding:5px; float:left;
+		}
+		.btn2_div{
+		  width: 15.8%; padding:5px; float:right; padding-right:0px;
+		}
+		
+		.btn {
+		  font-family: 'Chelsea Market', cursive;
+		  border: 3px solid black;
+		  padding: 14px 28px;
+		  font-size: 16px;
+		  cursor: pointer;
+		  width: 100%;
+		}
+		
+		/* Right */
+		.button2 {
+		  background-color: #87c7e1;
+		  border-color: white;
+		  color: white;
+		}
+		.button2:hover {
+			background-color: rgb(172, 176, 183, 0.2);
+			color: rgb(255, 255, 255, 0.5);
+		}
+
+		/* Green */
+		.button {
+			background-color: white;
+			border-color: white;
+			color: #87c7e1;
+			-webkit-transition: .5s all;   
+			-webkit-transition-delay: 0.1s; 
+			-moz-transition: .5s all;   
+			-moz-transition-delay: 0.1s; 
+			-ms-transition: .5s all;   
+			-ms-transition-delay: 0.1s; 
+			-o-transition: .5s all;   
+			-o-transition-delay: 0.1s; 
+			transition: .5s all;   
+			transition-delay: 0.1s; 
+		}
+
+		.button:hover {
+		  background-color: #87c7e1;
+		  border-color: white;
+		  color: white;
+		    -webkit-transition-delay: 0s;
+			-moz-transition-delay: 0s;
+			-ms-transition-delay: 0s;
+			-o-transition-delay: 0s;
+			transition-delay: 0s;
+		}
+	
+	/* Button Coding END */
 	
 	hr.vertical {
 	
