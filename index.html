@@ -4,200 +4,177 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width= device-width, initial-scale= 1"/>
 	<link rel="shortcut icon" href="favicon.ico">
-	<meta name="description" content="" />
-	<title>Dani & Oseias - Casamento</title>
-	<link href="https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<meta name="description" content="Anne Beauty, o lugar ideal para quem quer Unhas em Gel em Uberlândia. Ótimos preços, profissionais qualificados e produtos de qualidade. Agende seu horário!" />
+	<title>Anne Beauty Estética</title>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAajdG0aYGP7C50kwM_DtkbRWa9PvRAwAg&callback=initMap"></script> <!--Google Maps script-->
+	<script> <!-- Google Maps javaScript-->
+		function initialize(){
+			var myLatlng = new google.maps.LatLng(-18.910208, -48.269587);
+			var mapOptions = {zoom: 17,center: myLatlng}
+			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: 'Anne Beauty Estética - localização'
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<style>
+		#map-canvas{
+			min-width:430px;
+			min-height:290px;
+			max-width: 100%;
+			border-style: dashed;
+			border-width: 1px;
+		}
+		@media screen and (max-width: 1000px) {	
+			#map-canvas{
+				min-width:300px;
+			}
+		}
+	</style>
 </head>
 
-<body style="background-color:#87c7e1;" class="page">
+<body background="bgd.jpg" class="page">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class ="container">
 
-	<header style="margin-top:90px;">
-				<!-- <h3> 20.06.2019 </h3> -->
-				<h2><a href="#"> Dani & Oseias </a></h2>
-	</header>
 
-	<div>
-		<img style="max-height:250px; z-index: -2; margin-top: -150px;" class="" src="logo.webp" alt="Logo"/>
-	</div>
+	<header>
+                <!-- <h1> Tradução & Correção</h1> -->
+				<h2>Anne Beauty Estética</h2>
+	</header>
 	<div class="content">
 	
 		<!-- menu bar -->
-		<div class="menu-style"> 
+		<div class="codrops-top"> 
+		   <!-- <span class="left">
+				   <a href="#home">
+						&laquo; Kallan Sipple 
+					</a>
+				</span> -->
 				<span class="right">
-					<a href="index.html">Início</a>
-					<a href="our_story.html">Nossa História</a>
-					<a href="accommodation.html">Acomodações</a>
-					<a href="#">Registro</a>
-					<a href="#">Eventos</a>
+					<a href="#services"> Serviços</a>
+					<a href="#locale" style="font-size:18px;">Localização</a>
+					<a href="#contact" style="font-size:20px;">Contato</a>
+					<a href="galeria.html" style="font-size:20px;"><strong>Galeria</strong></a>
 				</span>
 					<div class="clr"></div>
 		</div>
 		
+<!-- 		<div>
+			<div style="margin-top:100px;" class="fb-page" data-href="https://www.facebook.com/AnneBeautyEstetica/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnneBeautyEstetica/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnneBeautyEstetica/">Anne Beauty</a></blockquote></div>
+		</div> -->
 		<br/>
+		<div id="logo">
+			<img style="height:250px;" src="images/logo.png" alt="Logo"/>
+		</div>
 		
 		
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		 
-		<div class="box1" style="margin-top:-17px;">
+		<div class="box1">
+		
+			<!-- <h3 id="home"> Introdução </h3> -->
+			<p> Anne Beauty: estética corporal e facial com especialização em alongamentos de unhas, além de cursos preparatórios na área de estética da unha. Oferecemos uma variedade de serviços, além de ótimos preços, profissionais qualificados e produtos de qualidade.</p> 
+			<p> Melhor lugar para Unhas em Gel em Uberlândia e região! </p>
+
+		</div>
+
+		<div class="box1">
+		
+			<h3 id="services"> Serviços </h3>
+			</br></br>
+			<p> Oferecemos os seguintes serviços: </p>
 			
-    <!-- #region Jssor Slider Begin -->
-    <!-- Generator: Jssor Slider Maker -->
-    <script src="jssor/jquery-1.11.3.min.js" type="text/javascript"></script>
-    <script src="jssor/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-
-            var jssor_1_options = {
-              $AutoPlay: 0,
-              $SlideWidth: 720,
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*#region responsive code begin*/
-
-            var MAX_WIDTH = 980;
-
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-
-                if (containerWidth) {
-
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-
-            ScaleSlider();
-
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        });
-    </script>
-    <style>
-        /*jssor slider loading skin spin css*/
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider bullet skin 051 css*/
-        .jssorb051 .i {position:absolute;cursor:pointer;}
-        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
-        .jssorb051 .i:hover .b {fill-opacity:.7;}
-        .jssorb051 .iav .b {fill-opacity: 1;}
-        .jssorb051 .i.idn {opacity:.3;}
-
-        /*jssor slider arrow skin 051 css*/
-        .jssora051 {display:block;position:absolute;cursor:pointer;}
-        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-        .jssora051:hover {opacity:.8;}
-        .jssora051.jssora051dn {opacity:.5;}
-        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-    </style>
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="jssor/nearby-image-partial-visible-slider/spin.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/001.webp" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/002.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/003.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/004.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/005.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/006.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/007.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/009.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/010.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/015.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="jssor/nearby-image-partial-visible-slider/022.jpg" />
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-            <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-        <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:35px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-            </svg>
-        </div>
-        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:35px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-            </svg>
-        </div>
-    </div>
-    <!-- #endregion Jssor Slider End -->
+			<br/><br/>
 			
-			<img style="width:100%;" src="body_band.webp" />
+			<div class = "servicebox"> 
+				<h1> Alongamentos de Unha </h1>
+				<p> ~ <a href="unhas-em-gel.html"> Unhas em Gel </a></p>
+				<p> ~ Acrilfix </p>
+				<p> ~ Decoradas </p>
+				<p> ~ Glass Effect </p>
+			</div>
+			
+			<div class = "servicebox">
+				<h1> Estética Facial &nbsp;<br/>& Corporal </h1>
+				<p> ~ Alongamento de Cíclios </p>
+				<p> ~ Cabeleleiro </p>
+				<p> ~ <a href="#"> Manicure & Pedicure </a></p>
+			</div>
+			
+			<div class = "servicebox" style= "max-width:215px; ">
+				<h1> Cursos </h1>
+				<p> ~ <a href="cursos.html"> Curso Anne Beauty de Unhas em Gel </a></p>
+			</div>
 
 		</div>
 		
-		<div class="box1" style="">
+		<div class="box1">
 			
-			<h3 id="contact" style="color:white; font-size:14px;"> For those of you coming from abroad, check out the events and accommodation </h3>
-	
-			<div style="padding-left:0px;" class="btn_div"><button class="btn button">Nossa História</button></div>
-			<div class="btn_div"><button class="btn button">Eventos</button></div>
-			<div class="btn2_div"><button class="btn button2">RSVP</button></div>
+			<h3 id="locale"> Localização </h3> 
+			<div id="servicebox" style="margin-right: 25px; text-align:left; float:left;">
+				<p> Nos localizamos no endereço abaixo: </p>
+				<br/>
+				<p style="text-align:left;"> &nbsp;&nbsp; Avenida Floriano Peixoto, 1708 </p>
+				<p style="text-align:left;"> &nbsp;&nbsp; Bairro Aparecida </p>
+				<p style="text-align:left;"> &nbsp;&nbsp; Uberlândia </p>
+			</div>
+			
+			<div id="servicebox" style="text-align:left; float:left; margin-top: 20px;margin-left:35px;">
+				<div id="map-canvas"></div>
+			</div>
+			
+			<!-- <a href="#"><img id="uk" src="images/backtotop.png" style=" height:32px; margin-top:0px; float: right;" alt="back to top" /></a> -->
+		</div>
+		
+		<div class="box1">
+			
+			<h3 id="contact"> Contato </h3>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<div>
+				<p style="text-align:left;"> Opções de contato se encontram abaixo: </p> 
+				<div id="spec_icon"> <p id="email" style="text-align:left;" > <img id="icon_image" src="images/face.png" alt="Facebook:"/> &nbsp <a href="http://facebook.com/AnneBeautyEstetica">/AnneBeautyEstetica</a></p></div>
+				<div id="icons_div"> <p id="email" style="text-align:left;"> <img id="icon_image" src="images/insta.png" alt="Instagram:"/> &nbsp <a href="https://www.instagram.com/annebeautynails/">/AnneBeautyNails</a></p></div>
+			</div>
+			<br/>
+			<div>
+				<p style="text-align:left;"> Para Agendamento ou Informações sobre <b>Unhas em Gel</b>: </p>
+				<!-- <div id="spec_icon"> <p style="text-align:left;"> <img id="icon_image" src="images/phone.png" alt="Telefone:"/> &nbsp (34) 9 XXXX-XXXX</p></div> -->
+				<div id="icons_div"> <p style="text-align:left;"> <img id="icon_image" style="width:116px;" src="images/pw.png" alt="WhatsApp:"/> &nbsp (34) 9 XXXX-XXXX (c/ Vannessa)</p></div>
+			</div>
+			<br/>
+			<div>
+				<p style="text-align:left;"> Para Agendamento ou Informações sobre <b> Cursos</b>: </p>
+				<!-- <div id="spec_icon"> <p style="text-align:left;"> <img id="icon_image" src="images/phone.png" alt="Telefone:"/> </p></div> -->
+				<div id="icons_div"> <p style="text-align:left;"> <img id="icon_image" style="width:116px;" src="images/pw.png" alt="WhatsApp:"/> &nbsp (34) 9 9258-2291 (c/ Anne)</p></div>
+			</div>
+			<a href="#"><img id="uk" src="images/backtotop.png" style=" height:32px; margin-top:0px; float: right;" alt="back to top" /></a>
+
 			
 		</div>
 	
 	</div>
 	
 	<footer class="footer">
-		<p style="text-align:center;"> </p>
-		<p style="text-align:center;"> </p>
+		<p style="text-align:center;">Anne Beauty Estética, 2018</p>
+		<!-- <p>CNPJ: 0001-xxx.xxx.xxx.000</p> -->
+		<p> <a href='https://www.freepik.es/vector-gratis/conjunto-de-iconos-modernos-acuarela-redes-sociales_1930254.htm#index=15'>Vector de Logo creado por Harryarts</a> </p> 
+		<p style="text-align:center;"> Site made by <i><a href="http://www.kallansipple.com"> Kallan Sipple </a></i> </p>
 	</footer>
 </div>
 
