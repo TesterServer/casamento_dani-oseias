@@ -172,11 +172,11 @@ h3:after {
 	
 	hr.vertical {
 	
-		height:350px; /*you might need some positioning for this to work, see other questions about 100% height*/
-		width:1px;
+		height:230px; /*you might need some positioning for this to work, see other questions about 100% height*/
+		width:3px;
 		border: 0;
-		background: black;
-		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#000), to(transparent));
+		background: white;
+		/* background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#000), to(transparent)); */
 		float:left;
 		margin-top:50px;
 		margin-bottom:50px;
