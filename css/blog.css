@@ -1,4 +1,5 @@
 @font-face{font-family:'CobertRegular'; src:url(../css/Corbert-Regular.otf) format('truetype');}
+@font-face{font-family:'Sacramento'; src:url(Sacramento-Regular.ttf) format('truetype');}
 
 	* {
 	  box-sizing: border-box;
